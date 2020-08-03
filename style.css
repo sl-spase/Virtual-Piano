@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: #366141;
+}
+
+.white-keys kbd {
+    display: inline-block;
+    background: white;
+    width: 50px;
+    height: 150px;
+    border: 3px outset #878c89;
+    margin-left: -6px;
+    padding-top: 110px;
+}
+
+.white-keys {
+    text-align: center;
+    width: 50%;
+    margin: 17% auto auto;
+}
+
+.black-keys kbd {
+    display: inline-block;
+    background: black;
+    color: white;
+    width: 30px;
+    height: 100px;
+    /*border: 3px outset #878c89;*/
+    margin-left: 0px;
+    padding-top: 50px;
+    position: relative;
+    left: 3px;
+    margin-right: 13px;
+
+}
+
+.black-keys {
+    text-align: center;
+    width: 50%;
+    margin: -15% auto auto;
+    position: relative;
+    top: 50px;
+    font-size: 14px;
+}
+
+#eKey {
+    margin-right: 63px;
+}
